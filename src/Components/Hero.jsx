@@ -13,8 +13,8 @@ function Hero() {
                   <div className='py-6 flex justify-center'>
                     <form className='bg-white w-fit border border-[#E0C0B1] rounded-xl p-2 flex items-center'>
                         <i className="fa-solid fa-magnifying-glass text-[#9D4300]"></i>
-                        <input placeholder='What are you craving today?' className='text-[#8C7164] w-[423px] py-3.5 px-2 outline-0'/>
-                        <button type='submit' className='bg-[#9D4300] text-white rounded-lg px-6 py-3 text-sm font-plusJakarta font-semibold hover:bg-[#9D4300]/80 cursor-pointer transition-all duration-300 delay-100 hover:scale-95 hidden sm:block'>
+                        <input placeholder='What are you craving today?' className='text-[#8C7164] sm:w-[423px] w-[150px] py-3.5 px-2 outline-0'/>
+                        <button type='submit' className='bg-[#9D4300] text-white rounded-lg px-6 py-3 text-sm font-plusJakarta font-semibold hover:bg-[#9D4300]/80 cursor-pointer transition-all duration-300 delay-100 hover:scale-95'>
                         Search
                     </button>
                     </form>

@@ -5,11 +5,11 @@ function Footer() {
     <section className='pt-12.5'>
         <div className='container bg-[#F2F1E6] pb-16'>
             <div className='flex flex-wrap lg:flex-nowrap items-start gap-8 py-16'>
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col gap-4 w-full'>
                     <h2 className='font-playFair text-[28px] font-semibold text-[#9D4300]'>CulinaryArtisan</h2>
-                    <p className='text-[#121C2A]/70 font-plusJakarta'>Elevating everyday cooking into art.<br/>
-                       Discover, share, and enjoy premium<br/>
-                       recipes curated for the modern<br/>
+                    <p className='text-[#121C2A]/70 font-plusJakarta'>Elevating everyday cooking into art.
+                       Discover, share, and enjoy premium
+                       recipes curated for the modern
                        palate.</p>
                 </div>
                 <div className='flex flex-col gap-6 lg:w-full'>
