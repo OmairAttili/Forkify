@@ -9,7 +9,7 @@ function Navbar() {
                 <div className='md:hidden'>
                   <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-                      <i class="fa-solid fa-bars fa-xl text-[#9D4300]"></i>
+                      <i className="fa-solid fa-bars fa-xl text-[#9D4300]"></i>
                     </div>
                     <ul
                       tabIndex="-1"
@@ -21,7 +21,7 @@ function Navbar() {
                       <li><a>Desserts</a></li>
                       <li><a>Healthy Food</a></li>
                       <li className='sm:hidden'><a>Sign In</a></li>
-                      <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                      <li><i className="fa-solid fa-magnifying-glass"></i></li>
                     </ul>
                   </div>
                 </div>
@@ -45,7 +45,7 @@ function Navbar() {
                         <input className='outline-0 text-[#8C7164] font-plusJakarta font-semibold' placeholder='Search recipes...'/>
                     </form>
                     <button className='md:hidden'>
-                    <i class="fa-solid fa-magnifying-glass text-[#9D4300]"></i>
+                    <i className="fa-solid fa-magnifying-glass text-[#9D4300]"></i>
                     </button>
                     <button type='submit' className='bg-[#9D4300] text-white rounded-lg px-4 py-2 text-sm font-plusJakarta font-semibold hover:bg-[#9D4300]/80 cursor-pointer transition-all duration-300 delay-100 hover:scale-95 hidden sm:block'>
                         Sign In
