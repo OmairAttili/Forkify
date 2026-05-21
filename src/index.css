@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@theme{
+  --color-primary:#F97316 ;
+  --color-secondary:#FFFBEB ;
+  --color-tertiary:#00A2F4 ;
+  --color-neutral:#374151 ;
+  --font-playFair:"Playfair", serif;
+  --font-plusJakarta:"Plus Jakarta Sans", sans-serif;
+}
+.container{
+  @apply max-w-full px-6;
+}
