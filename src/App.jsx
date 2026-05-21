@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import { RouterProvider } from "react-router/dom";
 import router from './Router';
 import Navbar from './Components/Navbar';
-
 function App() {
 
   const getdata = async()=>{
