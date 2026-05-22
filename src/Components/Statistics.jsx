@@ -4,7 +4,7 @@ function Statistics() {
   return (
     <section>
         <div className='container'>
-            <div className='flex items-center gap-6'>
+            <div className='flex flex-wrap md:flex-nowrap items-center gap-6'>
                 <div className='bg-[#E6EEFF] p-6 rounded-xl flex flex-col gap-2 items-center justify-center w-full'>
                     <span className='text-[#9D4300] font-playFair'>50k+</span>
                     <h2 className='text-[#584237] font-semibold font-plusJakarta text-sm'>CURATED RECIPES</h2>
