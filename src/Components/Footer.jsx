@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <section className='pt-12.5'>
+    <section className='pt-20'>
         <div className='container bg-[#F2F1E6] pb-16'>
             <div className='flex flex-wrap lg:flex-nowrap items-start gap-8 py-16'>
                 <div className='flex flex-col gap-4 w-full'>
