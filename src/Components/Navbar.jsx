@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 
 function Navbar() {
@@ -14,13 +15,13 @@ function Navbar() {
                     <ul
                       tabIndex="-1"
                       className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                      <li><a>Home</a></li>
-                      <li><a>About Us</a></li>
-                      <li><a>Subscription</a></li>
-                      <li><a>Pizza</a></li>
-                      <li><a>Desserts</a></li>
-                      <li><a>Healthy Food</a></li>
-                      <li className='sm:hidden'><a>Sign In</a></li>
+                      <li><Link to="#">Home</Link></li>
+                      <li><Link to="/">About Us</Link></li>
+                      <li><Link to="/Subscribe">Subscription</Link></li>
+                      <li><Link to="/Pizza">Pizza</Link></li>
+                      <li><Link to="#">Desserts</Link></li>
+                      <li><Link to="#">Healthy Food</Link></li>
+                      <li className='sm:hidden'><Link to="/#">Sign In</Link></li>
                       <li><i className="fa-solid fa-magnifying-glass"></i></li>
                     </ul>
                   </div>
@@ -29,13 +30,13 @@ function Navbar() {
                 <div className='hidden md:block'>
                     <ul className='flex items-center gap-6.5'>
                         <li className='text-[#9D4300] font-bold font-plusJakarta underline underline-offset-4'>
-                            <a href='#'>Home</a>
+                            <Link to='#'>Home</Link>
                         </li>
                         <li className='text-[#121C2A] font-plusJakarta hover:text-[#9D4300] hover:underline underline-offset-4 hover:font-bold transition-all hover:underline-offset-1 duration-500 delay-100'>
-                            <a href='#'>About Us</a>
+                            <Link to='/'>About Us</Link>
                         </li>
                         <li className='text-[#121C2A] font-plusJakarta hover:text-[#9D4300] hover:underline underline-offset-4 hover:font-bold transition-all hover:underline-offset-1 duration-500 delay-100'>
-                            <a href='#'>Subscription</a>
+                            <Link to='/Subscribe'>Subscription</Link>
                         </li>
                     </ul>
                 </div>
