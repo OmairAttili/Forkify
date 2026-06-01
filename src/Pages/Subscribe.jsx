@@ -1,8 +1,11 @@
 import React from 'react'
+import SubscribeHero from '../Components/SubscribeHero'
 
 function Subscribe() {
   return (
-    <div>Subscribe</div>
+    <>
+    <SubscribeHero></SubscribeHero>
+    </>
   )
 }
 

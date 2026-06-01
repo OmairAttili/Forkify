@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero2 from '../Components/Hero2'
+import Hero from '../Components/Hero'
 import OurMission from '../Components/OurMission'
 import Statistics from '../Components/Statistics'
 import OurTeam from '../Components/OurTeam'
@@ -7,7 +7,7 @@ import OurTeam from '../Components/OurTeam'
 function About() {
   return (
     <>
-    <Hero2></Hero2>
+    <Hero></Hero>
     <OurMission></OurMission>
     <Statistics></Statistics>
     <OurTeam/>
