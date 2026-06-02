@@ -1,8 +1,11 @@
 import React from 'react'
+import PizzaHero from '../Components/PizzaHero'
 
 function PizzaRecipes() {
   return (
-    <div>PizzaRecipes</div>
+    <>
+    <PizzaHero></PizzaHero>
+    </>
   )
 }
 
