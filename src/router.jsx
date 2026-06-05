@@ -4,6 +4,7 @@ import Layout from "./Layout";
 import About from "./Pages/About";
 import PizzaRecipes from "./Pages/PizzaRecipes";
 import Subscribe from "./Pages/Subscribe";
+import Pasta from "./Pages/Pasta";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
         {
             path:'Subscribe',
             element:<Subscribe/>
+        },
+        {
+            path:'Pasta',
+            element:<Pasta/>
         }
     ]
   },

@@ -15,11 +15,10 @@ function Navbar() {
                     <ul
                       tabIndex="-1"
                       className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                      <li><Link to="#">Home</Link></li>
                       <li><Link to="/">About Us</Link></li>
                       <li><Link to="/Subscribe">Subscription</Link></li>
                       <li><Link to="/Pizza">Pizza</Link></li>
-                      <li><Link to="#">Pasta</Link></li>
+                      <li><Link to="/pasta">Pasta</Link></li>
                       <li><Link to="#">Fish</Link></li>
                       <li className='sm:hidden'><Link to="/#">Sign In</Link></li>
                       <li><i className="fa-solid fa-magnifying-glass"></i></li>
@@ -36,7 +35,7 @@ function Navbar() {
                             <Link to='/Subscribe'>Subscription</Link>
                         </li>
                         <li><Link to="/Pizza">Pizza</Link></li>
-                      <li><Link to="#">Pasta</Link></li>
+                      <li><Link to="/Pasta">Pasta</Link></li>
                       <li><Link to="#">Fish</Link></li>
                     </ul>
                 </div>
