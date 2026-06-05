@@ -13,7 +13,7 @@ function PastaHero() {
                 <div className='pt-3'>
                     <button type='button' className='bg-[#9D4300] px-8 py-4 rounded-xl cursor-pointer text-white flex items-center gap-2 hover:bg-[#9D4300]/70 hover:scale-105 transition-all duration-300 hover:translate-y-2'>
                         <span>Explore Collections</span>
-                        <i class="fa-solid fa-arrow-down fa-lg"></i>
+                        <i className="fa-solid fa-arrow-down fa-lg"></i>
                     </button>
                 </div>
             </div>
