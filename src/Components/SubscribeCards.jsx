@@ -24,7 +24,7 @@ function SubscribeCards() {
                             </li>
                             <li className='flex items-center gap-3'>       
                                 <div className='w-3.75 h-3.75 bg-[#9D4300] rounded-full text-white flex items-center justify-center'>
-                                <i class="fa-solid fa-check fa-2xs"></i>
+                                <i className="fa-solid fa-check fa-2xs"></i>
                                 </div>        
                                 <p className='text-[#121C2A] font-plusJakarta'>Community forums access</p> 
                             </li>

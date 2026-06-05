@@ -3,8 +3,9 @@ import { Link } from 'react-router';
 
 
 function Navbar() {
+  const path =window.location.pathname
   return (
-    <section className='py-5.5'>
+    <section className='py-5.5 fixed z-10 bg-white w-full'>
         <div className='container'>
             <div className='flex items-center justify-between'>
                 <div className='lg:hidden'>
