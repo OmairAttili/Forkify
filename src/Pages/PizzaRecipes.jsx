@@ -1,6 +1,6 @@
 import React from 'react'
 import PizzaHero from '../Components/PizzaHero'
-import Foods from '../Components/Foods'
+import Foods from '../Components/GetPizza'
 
 function PizzaRecipes() {
   return (

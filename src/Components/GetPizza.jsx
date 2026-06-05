@@ -22,7 +22,7 @@ if(isLoading) return <h2 className='text-[#9D4300] text-5xl py-10 text-center fo
   return (
     <section className='py-20'>
         <div className='container bg-white/90'>
-        <h2 className='text-center font-bold text-6xl mb-6'>{name}</h2>
+        <h2 className='text-center font-bold text-6xl mb-6'>Pizza</h2>
             <div className='grid grid-cols-12 gap-6'>
                 {data.recipes.map((p)=>
                 <div className='col-span-12 sm:col-span-6 lg:col-span-4 bg-white rounded-3xl drop-shadow-2xl flex flex-col gap-6 pb-8 hover:-translate-y-6 duration-500 transition-all delay-100'>
