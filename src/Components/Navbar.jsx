@@ -19,8 +19,8 @@ function Navbar() {
                       <li><Link to="/">About Us</Link></li>
                       <li><Link to="/Subscribe">Subscription</Link></li>
                       <li><Link to="/Pizza">Pizza</Link></li>
-                      <li><Link to="#">Desserts</Link></li>
-                      <li><Link to="#">Healthy Food</Link></li>
+                      <li><Link to="#">Pasta</Link></li>
+                      <li><Link to="#">Fish</Link></li>
                       <li className='sm:hidden'><Link to="/#">Sign In</Link></li>
                       <li><i className="fa-solid fa-magnifying-glass"></i></li>
                     </ul>
@@ -36,8 +36,8 @@ function Navbar() {
                             <Link to='/Subscribe'>Subscription</Link>
                         </li>
                         <li><Link to="/Pizza">Pizza</Link></li>
-                      <li><Link to="#">Desserts</Link></li>
-                      <li><Link to="#">Healthy Food</Link></li>
+                      <li><Link to="#">Pasta</Link></li>
+                      <li><Link to="#">Fish</Link></li>
                     </ul>
                 </div>
                 <div className='flex items-center gap-3.5'>
