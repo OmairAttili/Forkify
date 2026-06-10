@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-
+import SearchIcon from '../assets/Search.svg';
 
 function Navbar() {
   const path =window.location.pathname
@@ -42,7 +42,7 @@ function Navbar() {
                 </div>
                 <div className='flex items-center gap-3.5'>
                     <form className='items-center gap-2 border border-[#E0C0B1] px-3 py-1.5 rounded-lg hidden md:flex'>
-                       <img src="./src/assets/Search.svg" alt='Search icon'/>
+                       <img src={SearchIcon} alt='Search icon'/>
                         <input className='outline-0 text-[#8C7164] font-plusJakarta font-semibold' placeholder='Search recipes...'/>
                     </form>
                     <button className='md:hidden  hidden sm:block'>
