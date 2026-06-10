@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ChefsPreparingAGourmetMeal from './assets/ChefsPreparingAGourmetMeal';
 function Hero2() {
   return (
     <section className='py-20'>
@@ -15,7 +15,7 @@ function Hero2() {
                       <br/>and inspiring for everyone.</p>
                 </div>
                 <div>
-                    <img src='./src/assets/ChefsPreparingAGourmetMeal.png' alt='Chefs Preparing A Gourmet Meal' className='rounded-3xl'/>
+                    <img src={ChefsPreparingAGourmetMeal} alt='Chefs Preparing A Gourmet Meal' className='rounded-3xl'/>
                 </div>
             </div>
         </div>
