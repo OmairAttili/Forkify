@@ -1,5 +1,5 @@
 import React from 'react'
-import ChefsPreparingAGourmetMeal from './assets/ChefsPreparingAGourmetMeal';
+import ChefsPreparingAGourmetMeal from '../assets/ChefsPreparingAGourmetMeal.png';
 function Hero2() {
   return (
     <section className='py-20'>
